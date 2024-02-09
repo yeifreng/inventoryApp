@@ -1,1 +1,25 @@
-<p>form-add-product works!</p>
+<div class="card">
+  <div class="card-header">
+    <h2>Agregar producto</h2>
+  </div>
+  <div class="card-body">
+    <form class="form-group">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Descripción *</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Descripción del producto">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Cantidad *</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Cantidad">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Precio *</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Precio unitario">
+      </div>
+      <hr>
+      <div class="mb-3">
+        <button routerLink="/category/list-category" type="submit" class="form-control btn btn-primary">Agregar</button>
+      </div>
+    </form>
+  </div>
+</div>

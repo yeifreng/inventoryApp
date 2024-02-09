@@ -1,34 +1,43 @@
 
 <div class="container text-center">
-  <h3>Listado de productos</h3>
-  <hr>
-  <div class="row">
-    <div class="col">
-      <div class="table-responsive">
-        <table class="table table-hover">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Descripcion</th>
-              <th>cantidad</th>
-              <th>precio</th>
-              <th>Acciones</th>
-            </tr>
-          </thead>
-          <tbody class="table-group-divider">
-              <tr>
-                <td>1</td>
-                <td>Pantalon azul</td>
-                <td>100</td>
-                <td>$ 30.000</td>
-                <td>
-                  <button class="btn btn-primary">Editar</button>
-                  <button class="btn btn-danger">Eliminar</button>
-                </td>
-              </tr>
-          </tbody>
-        </table>
-      </div>
+  <div class="card">
+    <div class="card-header">
+      <h3>Listado de productos</h3>
+      <button class="btn btn-primary" routerLink="/product/add-product">
+        <i class="fa fa-plus"></i>
+        Agregar Producto
+      </button>
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col">
+          <div class="table-responsive">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Descripcion</th>
+                  <th>cantidad</th>
+                  <th>precio</th>
+                  <th>Acciones</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                  <tr>
+                    <td>1</td>
+                    <td>Pantalon azul</td>
+                    <td>100</td>
+                    <td>$ 30.000</td>
+                    <td>
+                      <button class="btn btn-primary">Editar</button>
+                      <button class="btn btn-danger">Eliminar</button>
+                    </td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
     </div>
   </div>
 </div>
